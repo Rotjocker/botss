@@ -5,7 +5,7 @@ from keep import alive
 from pyrogram import Client, filters, enums
 from kvsqlite.sync import Client as dt
 p = dict(root='plugins')
-tok = '6299081551:AAGvumouIsJdFG3j7zLRLW6C4xSopzIkkFc' ## توكنك 
+tok = '6175180963:AAEaCoWD97Bz_F-DhyG8Neg1_dF_KSdLOrA' ## توكنك 
 id = 1308075085 ## ايديك
 db = dt("data.sqlite", 'fuck')
 if not db.get("checker"):
